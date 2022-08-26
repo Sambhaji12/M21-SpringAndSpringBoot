@@ -3,6 +3,7 @@ package com.cg.springioc;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+
 public class Moblie {
 
 	public static void main(String[] args) 
@@ -29,6 +30,7 @@ public class Moblie {
 		Sim s=a.getBean("Sim ",Sim.class);
 		s.calling();
 		s.data();
+		
 		
 
 	}
