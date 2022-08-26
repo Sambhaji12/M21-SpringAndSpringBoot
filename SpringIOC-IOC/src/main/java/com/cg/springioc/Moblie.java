@@ -21,7 +21,11 @@ public class Moblie {
 		System.out.println("Config loaded ....");
 		/*Idea i=(Idea)a.getBean("Idea");
 		i.calling();
-		i.data();*/
+		i.data();
+		
+		Jio j=(Jio)a.getBean("Jio");
+		j.calling();
+		j.data();*/
 		Sim s=a.getBean("Sim ",Sim.class);
 		s.calling();
 		s.data();
