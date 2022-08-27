@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+<bean class ="com.springcore.Certi" name ="certificate">
+ <constructor-arg value="java full stack developer"/> 
+</bean >
+
+
+
+<bean class = " com.springcore.Person" name ="person">
+<constructor-arg value="123"/>
+<constructor-arg value="Sambhaji"/>
+<constructor-arg ref="certificate"/>  
+</bean>
+<bean class="com.springcore.Addtion" name="add"> 
+
+<constructor-arg value="12.3" type="double"/>
+<constructor-arg value="2.3" type="double"/>
+</bean>
+
+
+
+
+</beans>
